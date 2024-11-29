@@ -39,9 +39,9 @@ h1 {
 ```
 
 🚀 <h2>Tecnologias Utilizadas<h2/>
-Vue.js
-HTML e SASS
-JavaScript
+• Vue.js
+• HTML e SASS
+• JavaScript
 
 Acesse o projeto no navegador:
 https://introducao-vue.vercel.app/
