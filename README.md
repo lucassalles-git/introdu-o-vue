@@ -13,6 +13,7 @@ No Vue.js, os Single File Components (SFCs) são arquivos .vue que reúnem o HTM
 
 Exemplo básico de um SFC:
 
+```
 <template>
   <div>
     <h1>{{ mensagem }}</h1>
@@ -34,6 +35,9 @@ h1 {
   color: #42b983; /* Cor oficial do Vue.js */
 }
 </style>
+
+```
+
 🚀 <h2>Tecnologias Utilizadas<h2/>
 Vue.js
 HTML e SASS
