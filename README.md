@@ -1,4 +1,4 @@
-Blog de Primeiro Contato com Vue.js
+<h1>Blog de Primeiro Contato com Vue.js</h1>
 Este repositório contém uma página de blog desenvolvida como atividade inicial para explorar o Vue.js, um framework progressivo para construção de interfaces de usuário.
 
 📋 O que foi abordado?
