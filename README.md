@@ -39,8 +39,8 @@ h1 {
 ```
 
 🚀 <h2>Tecnologias Utilizadas<h2/>
-• Vue.js
-• HTML e SASS
+• Vue.js <br>
+• HTML e SASS <br>
 • JavaScript
 
 Acesse o projeto no navegador:
