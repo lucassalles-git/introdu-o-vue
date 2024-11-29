@@ -44,4 +44,4 @@ h1 {
 • JavaScript
 
 Acesse o projeto no navegador:
-https://introducao-vue.vercel.app/
+<a href = "https://introducao-vue.vercel.app/" target = "_blank">Introdução Vue<a/>
