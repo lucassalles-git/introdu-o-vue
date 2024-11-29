@@ -49,15 +49,6 @@
 
 </template>
 
-<style>
-/* Estilos globais */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-</style>
-
 <style scoped lang="scss">
 /*Stilos*/
 
