@@ -71,6 +71,10 @@ header {
   justify-content: center;
   gap: 48px;
 
+  @media (min-width: 320px) and (max-width:440px) and (max-height: 956px){
+    padding: 0;
+    gap: 1rem;
+  }
 
   color: #42B883;
   background-color: #17171A;
@@ -78,10 +82,21 @@ header {
   .logo {
     margin-right: 8px;
     width: 40px;
+
+    @media (min-width: 320px) and (max-width:440px) and (max-height: 956px){
+      width: 2.5rem;
+      height: 2rem;
+    }
   }
 
   h1 {
-    font: 600 40px sans-serif;
+    font: 600 40px "Inter", serif;
+
+    @media (min-width: 320px) and (max-width:440px) and (max-height: 956px){
+      display: flex;
+      align-items: center;
+      font-size: 2rem;
+    }
   }
 
   span {
@@ -97,10 +112,17 @@ header {
     border-radius: 8px;
     background-color: #252529;
 
-    font: 500 20px sans-serif;
+    font: 500 20px "Inter", serif;
     color: #AFABB6;
 
     transition: all 0.4s;
+
+    @media (min-width: 320px) and (max-width:440px) and (max-height: 956px){
+      width: 90vw;
+      height: 5vh;
+
+      font-size: 0.95rem;
+    }
     
   }
 
@@ -126,6 +148,10 @@ main {
   display: flex;
   flex-direction: column;
   gap: 40px;
+
+  @media (min-width: 320px) and (max-width:440px) and (max-height: 956px){
+    gap: 5vh;
+  }
 }
 
 .info {
@@ -148,14 +174,30 @@ main {
 
   transition: all 0.4s;
 
+  @media (min-width: 320px) and (max-width:440px) and (max-height: 956px){
+    width: 90vw;
+    height: auto;
+    padding: 2rem;
+
+    text-align: center;
+  }
+
   h2 {
     font-size: 24px;
+
+    @media (min-width: 320px) and (max-width:440px) and (max-height: 956px){
+      font-size: 1.2rem;
+    }
   }
 
   p {
     line-height: 32px;
     font-size: 20px;
     color: #AFABB6;
+
+    @media (min-width: 320px) and (max-width:440px) and (max-height: 956px) {
+      font-size: 1rem;
+    }
   }
 }
 
