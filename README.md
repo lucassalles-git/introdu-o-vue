@@ -3,15 +3,15 @@ Este repositório contém uma página de blog desenvolvida como atividade inicia
 
 <h2>📋 O que foi abordado?<h2/>
 <h3>1️⃣ O que é Vue.js?</h3>
-O Vue.js é um framework de JavaScript focado em criar interfaces de usuário de forma simples e reativa. Ele permite criar aplicações web modernas com uma abordagem declarativa e flexível, sendo ideal tanto para projetos pequenos quanto grandes.
+<p>O Vue.js é um framework de JavaScript focado em criar interfaces de usuário de forma simples e reativa. Ele permite criar aplicações web modernas com uma abordagem declarativa e flexível, sendo ideal tanto para projetos pequenos quanto grandes.</p>
 
 <h3>2️⃣ O Quadro Progressivo<h3/>
-Vue é considerado um framework progressivo, o que significa que você pode começar com funcionalidades básicas e ir adicionando mais conforme necessário, como roteamento e gerenciamento de estado. Essa progressividade facilita a adoção do Vue em projetos já existentes.
+<p>Vue é considerado um framework progressivo, o que significa que você pode começar com funcionalidades básicas e ir adicionando mais conforme necessário, como roteamento e gerenciamento de estado. Essa progressividade facilita a adoção do Vue em projetos já existentes.</p>
 
 <h3>3️⃣ Componentes de Arquivo Único (SFCs)<h3/>
-No Vue.js, os Single File Components (SFCs) são arquivos .vue que reúnem o HTML, CSS e JavaScript de um componente em um único lugar. Essa abordagem organiza melhor o código e facilita a manutenção.
+<p>No Vue.js, os Single File Components (SFCs) são arquivos .vue que reúnem o HTML, CSS e JavaScript de um componente em um único lugar. Essa abordagem organiza melhor o código e facilita a manutenção.</p>
 
-Exemplo básico de um SFC:
+<p>Exemplo básico de um SFC:</p>
 
 ```
 <template>
@@ -39,9 +39,11 @@ h1 {
 ```
 
 <h3>🚀 Tecnologias Utilizadas<h3/>
-• Vue.js <br>
-• HTML e SASS <br>
-• JavaScript
+<ul>
+<li>Vue.js<li/>
+<li>HTML e SASS<li/>
+<li>JavaScript<li/>
+</ul>
 
-Acesse o projeto no navegador:
+<p>Acesse o projeto no navegador:</p>
 <a href = "https://introducao-vue.vercel.app/" target = "_blank">Introdução Vue<a/>
