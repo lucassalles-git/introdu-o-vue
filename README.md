@@ -39,7 +39,9 @@ h1 {
 ```
 
 <h3>🚀 Tecnologias Utilizadas<h3/>
-<ul><li>Vue.js<li/><li>HTML e SASS<li/><li>JavaScript<li/></ul>
+• Vue.js <br>
+• HTML e SASS <br>
+• JavaScript
 
 <p>Acesse o projeto no navegador:</p>
 <a href = "https://introducao-vue.vercel.app/" target = "_blank">Introdução Vue<a/>
