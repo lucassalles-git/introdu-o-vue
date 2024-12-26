@@ -1,4 +1,19 @@
 <script setup>//Lógica
+import coracaoTransparent from "../src/assets/transparent.png"
+import coracaoVerde from "../src/assets/verde.png"
+import { ref } from "vue";
+
+//fazendo a lógica por trás de um "like"
+const imagens = ref([
+  { src: coracaoTransparent, curtido: false },
+  { src: coracaoTransparent, curtido: false },
+  { src: coracaoTransparent, curtido: false }
+]);
+
+function like(index) {
+  imagens.value[index].curtido = !imagens.value[index].curtido;
+  imagens.value[index].src = imagens.value[index].curtido ? coracaoVerde : coracaoTransparent;
+}
 </script>
 
 <template> <!--HTML, Tags-->
@@ -13,7 +28,10 @@
     <section class="conteiner">
 
       <section class="info">
-        <h2>O que é Vue?​</h2>
+        <div>
+          <h2>O que é Vue?​</h2>
+          <img :src="imagens[0].src" alt="Coração para dar 'curtida' na publicação" @click="like(0)">
+        </div>
 
         <p>
           Vue (pronuncia-se /vjuː/, como view ) é um framework JavaScript para construir interfaces de usuário. Ele é
@@ -23,7 +41,10 @@
       </section>
 
       <section class="info">
-        <h2>O Quadro Progressivo​</h2>
+        <div>
+          <h2>O Quadro Progressivo​</h2>
+          <img :src="imagens[1].src" alt="Coração para dar 'curtida' na publicação" @click="like(1)">
+        </div>
 
         <p>
           Vue é um framework e ecossistema que cobre a maioria dos recursos comuns necessários no desenvolvimento
@@ -33,7 +54,10 @@
       </section>
 
       <section class="info">
-        <h2>Componentes de arquivo único​</h2>
+        <div>
+          <h2>Componentes de arquivo único​</h2>
+          <img :src="imagens[2].src" alt="Coração para dar 'curtida' na publicação" @click="like(2)">
+        </div>
 
         <p>
           Na maioria dos projetos Vue habilitados para ferramentas de construção, criamos componentes Vue usando um
@@ -46,6 +70,13 @@
 
     </section>
   </main>
+
+    <!-- como trazer dados de forma dinamica? 
+      {{ interpolação }}
+      <p>{{}}</p>
+      pra inserir em atributos usamos o v-bind
+      : atalho para o v-bind
+     -->
 
 </template>
 
@@ -164,6 +195,16 @@ main {
   font-weight: 500;
 
   transition: all 0.4s;
+
+  div{
+    display: flex;
+    justify-content: space-between;
+
+    img{
+      height: 25px;
+      width: 30px;
+    }
+  }
 
   @media (min-width: 320px) and (max-width:440px) and (max-height: 956px){
     width: 90vw;
