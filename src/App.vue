@@ -203,6 +203,7 @@ main {
     img{
       height: 23.99px;
       width: 28px;
+      cursor: pointer;
     }
   }
 
