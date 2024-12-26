@@ -201,8 +201,8 @@ main {
     justify-content: space-between;
 
     img{
-      height: 25px;
-      width: 30px;
+      height: 23.99px;
+      width: 28px;
     }
   }
 
